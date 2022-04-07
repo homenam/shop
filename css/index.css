@@ -1,0 +1,470 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.head{
+	background-color: white;
+	height:200px;
+	border-bottom: solid;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+.input_search{
+	width: 15%;
+	height: 50px;
+	transform: translate(15px,15px);
+	display: inline-block;
+	
+}
+
+.inp{width: 80%;
+height: 100%;
+border-style:solid;
+border-right: none;
+}
+.im{
+	width: 20px;
+	height: 100%;
+	background-color: skyblue;
+	color: white;
+	transform: translateY(19px);
+}
+.h1_header{
+	transform: translateX(410px);
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+.h1_header h1{
+	color: blue;
+	text-decoration: underline overline black;
+}
+.h1_header img{
+	width: 50px;
+	height: 50px;
+}
+
+.header_button{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+	transform: translateX(500px);
+}
+
+.header_button button{
+	width: 90px;
+	height: auto;
+	border-style: none;
+	background-color: white;
+}
+
+.button:hover {
+	background-color: skyblue;
+}
+
+.select{
+	width: 6%;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+	transform: translateX(450px);
+	margin-left: 20px;
+}
+.select-im{
+	width: 50px;
+	height: 50px;
+	transform: translateY(15px);
+	
+}
+
+.ul_header{
+    width: 100%;
+    height: 100px;
+    border-top: solid;
+    position: absolute;
+    transform: translate(0%,122px);
+    text-align: center;
+}
+
+.ul_header a{
+	color: black;
+	text-decoration: none;
+}
+.ul_header ul{
+list-style: none;	
+}
+.ul_header li{
+    float: left;
+    width: 20%;
+    padding: 19px 0px;
+    border-left: solid;
+    transform: translate(0px,11px);
+
+}
+.ul_header li:hover{
+	background-color:  skyblue; 
+}
+
+.main{
+	width: 100%;
+	height: 400px;
+	background-color: blue;
+	position: relative;
+}
+.main-img{
+	width: 100%;
+	position: absolute;
+	height: 100%;
+}
+
+.div-main{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	transform: translate(-50px,-50px);
+	
+}
+
+.div-main h2{
+	color: blue;
+	font-size: 30px;
+	
+}
+.div-main span{
+	color: skyblue;
+	font-size: 30px;
+}
+.div-main button{
+	width: 100px;height: 40px;
+	background-color: blue;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.aside{
+	width: 100%;
+	height: 450px;
+	background-color: white;
+	position: relative;
+}
+
+.aside-div{
+	position: relative;
+	width: 28%;
+	height: 200px;
+	border-style: none;
+	border-radius: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10PX;
+	box-shadow: 1px 1px 15px;
+}
+
+.aside-div img{
+	width: 100%;
+	height: 100%;position: absolute;
+}
+
+.span{
+	position: absolute;
+	width: 50%;
+	height: auto;
+	right: 30px;
+	top: 30px;
+	color: white;
+}
+
+.span button{
+	background-color: inherit;
+	border-style: solid ;
+	border-color: white;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.aside-div2{
+	position: relative;
+	width: 40%;
+	height: 420px;
+	border-style: none;
+	border-radius: 5px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10PX;
+	box-shadow: 1px 1px 15px;
+}
+.aside-div2 img{
+	width: 100%;
+	height: 100%;position: absolute;
+}
+.span2{
+	position: absolute;
+	width: 50%;
+	height: auto;
+	right:80px;
+	top: 40px;
+	color: white;
+}
+.span2 button{
+	background-color: inherit;
+	border-style: solid ;
+	border-color: white;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.aside-div3{
+	position: absolute;
+	transform: translate(10px,230px);
+	width: 28%;
+	height: 200px;
+	border-style: none;
+	border-radius: none;
+	box-shadow: 1px 1px 15px;
+
+}
+.aside-div3 img{
+	width: 100%;
+	height: 100%;
+}
+.span3{
+	position: absolute;
+	width: 50%;
+	height: auto;
+	left:20px;
+	top: 30px;
+	color: white;
+}
+.span3 button{
+	background-color: inherit;
+	border-style: solid ;
+	border-color: white;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+.span8{
+	position: absolute;
+	width: 50%;
+	height: auto;
+	left:10px;
+	top: 30px;
+	color: white;
+
+}
+.span8 button{
+	background-color: inherit;
+	border-style: solid ;
+	border-color: white;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+.span44{
+	position: absolute;
+	width: 50%;
+	height: auto;
+	right:10px;
+	top: 30px;
+	color: white;
+}
+.span44 button{
+	background-color: inherit;
+	border-style: solid ;
+	border-color: white;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+.main-bady{
+	width: 100%;
+	height: 460px;
+	text-align: center;
+	position: relative;
+}
+.main-bady h3{
+	color: blue;
+	font-size: 30px;
+	text-decoration: underline overline black;
+
+}
+.main-bady span{
+	color:skyblue; 
+	margin-left: 5px;
+}
+.arrow{
+	width: 50px;
+	height: auto;
+	border-style: solid;
+	display: inline-block;
+	position: absolute;
+	left: 6px;
+	top: 50%;
+	box-shadow: 1px 1px 14px;
+	border-radius:5px;
+}
+.arrow2{
+	position: absolute;
+	width: 50px;
+	height: auto;
+	border-style: solid;
+	display: inline-block;
+	right: 6px;
+	top: 50%;
+	box-shadow: 1px 1px 14px;
+	border-radius:5px;
+
+}
+
+.div--5{
+	width: 100%;
+	height: 80%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-shopping{
+	width: 200px;
+	height: 300px;
+	margin-top: 10px;
+	border-style: solid;
+	box-shadow: 1px 1px 14px;
+	margin-left: 10px;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+}
+.nav-shopping img{
+	width: 100%;
+	height: 70%;
+}
+.star{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+.star img{
+	width: 20px;
+	height: 20px;
+}
+.price{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+.celar{
+	color: red;
+}
+.shop{
+	display: inline-block;
+	width: 100px;
+	background-color: blue;
+	color: white;
+	height: 35px;
+	border-style: solid;
+	border-color: blue;
+	box-shadow: 1px 1px 14px;
+	border-radius: 5px;
+	font-size: 10px;
+	position: absolute;
+	right: 2px;bottom: 5px;
+
+}
+.footer{
+	width: 100%;
+	height: 300px;
+}
+.p-footer{
+	text-align: center;
+	color: blue;font-size: 30px;
+	text-decoration: underline black;
+}
+.p-footer span{
+	color:skyblue; 
+}
+.div-end{
+	width: 100%;
+	height: 60%;
+	
+	margin-top: 50px; 
+	display: flex;
+	justify-content: flex-start;
+}
+.end{
+	margin-right: 5px;
+	width: 200px;
+	height: 100%;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 14px;
+}
+
+.end img{
+	width: 100%;
+	height: 100%;
+}
+
+.footer-end{
+	width: 100%;
+	height: 300px;
+	background-color: antiquewhite;
+	position: relative;
+}
+
+.ul-end{
+	width: 15%;
+	height: 90%;
+	margin-top: 10px;
+	margin-left: 20px;
+	display: inline-block;
+
+	font-size: 20px;
+	
+}
+
+.ul-end a{
+	color: black;
+	text-decoration: none;
+}
+.ul-end ul{
+	list-style: none;
+}
+.ul-end li{
+	padding-top:5px; 
+}
+
+.ul-end2{
+	width: 30%;
+	height: 90%;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: right;
+}
+
+.ul-end2 input{
+width: 300px;
+height: 40px;
+margin-left: 30px;
+border-radius: 5px;    transform: translate(0px, 100px);
+}
+
+.ul-end2 button{
+width: 100px;
+height: 40px;
+background-color: blue;color: white;
+border-radius: 5px;  transform: translate(0px, 100px);
+}

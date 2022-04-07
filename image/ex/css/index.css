@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+	height: 550px;
+	border-bottom: solid ;
+
+}
+
+.navbar{
+	border-bottom:solid ;
+}
+.carousel{
+	width: 100%;
+	height: 490px;
+}
+.son{
+	width: 100%;
+	height: 100%;
+}
+.son img{
+	width: 100%;
+	height: 100%;
+}
+.aside{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+}
+.img{
+
+	height:200px;
+}
+.car{
+	border-style: none;
+
+}
+
+.footer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+
+}
+
+.text{
+	text-align: center;
+}
+.fs{
+	font-size: 15px;
+	font-family: 'Amiri', serif;
+}
